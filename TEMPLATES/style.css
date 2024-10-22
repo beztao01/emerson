@@ -1,0 +1,121 @@
+.main-grid {
+    display: grid;
+   grid-template-columns: auto auto auto auto auto;
+   grid-template-rows: auto auto auto ;
+    justify-content: center;
+    padding: 3rem;
+    gap: 1.5rem;
+    } 
+
+    .cards {
+        text-align: center;
+        background-color: rgb(249, 250, 252);
+        border-radius: 10px;
+        padding: 1rem;
+ 
+        } 
+
+    .icons {
+        height: 30px;
+        width: 30px;
+
+        } 
+
+        h1 {
+            font-size: 2.5rem;
+            color: #003e79;
+            font-family: "Mukta", system-ui;
+            font-weight: 700;
+            font-style: normal;
+            text-align: center;
+            padding-top: 2rem;
+    
+            } 
+    
+    h3 {
+        font-size: 1.5rem;
+        color: #0070d8;
+        font-family: "Mukta", system-ui;
+        font-weight: 600;
+        font-style: normal;
+
+        } 
+
+    p {
+        font-size: 1rem;
+        font-family: "Mukta", system-ui;
+        font-weight: 400;
+        font-style: normal;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    
+        } 
+
+    .ssp {
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+    
+        } 
+
+        .sst {
+            grid-column: 3 / 4;
+            grid-row: 1 / 2;
+        
+            } 
+    
+            .ss {
+                grid-column: 5 / 6;
+                grid-row: 1 / 2;
+            
+                } 
+
+    @media screen and (max-width: 1100px) {
+
+        .ssp {
+            grid-column: 1 / span 12;
+            grid-row: 1 / 2;
+        
+            } 
+    
+            .sst {
+                grid-column: 1 / span 12;
+                grid-row: 2 / 3;
+            
+                } 
+        
+                .ss {
+                    grid-column: 1 / span 12;
+                    grid-row: 3 / 4;
+                
+                    } 
+        
+    }
+
+    .btn-custom {
+        color: white;
+        background-color: #0072dd;
+        border: none;
+        font-size: 1.1rem;
+        padding: 0.4rem;
+        width: 80px;
+        border-radius: 50px;
+        font-family: "Mukta", system-ui;
+        font-weight: 450;
+        font-style: normal;
+        transition: 0.3s background-color;
+ 
+        } 
+
+        .btn-custom:hover {
+            background-color: #015db3;
+            color: white;
+     
+            } 
+
+        
+
+            a {
+                text-decoration: none;
+                list-style-type: none;
+         
+                } 
